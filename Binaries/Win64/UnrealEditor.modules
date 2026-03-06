@@ -1,0 +1,8 @@
+{
+	"BuildId": "43139311",
+	"Modules": 
+	{
+		"YarnSpinner": "UnrealEditor-YarnSpinner.dll",
+		"YarnSpinnerEditor": "UnrealEditor-YarnSpinnerEditor.dll"
+	}
+}

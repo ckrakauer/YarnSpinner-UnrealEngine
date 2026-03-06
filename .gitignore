@@ -1,10 +1,17 @@
 # Unreal Engine
 
 # Build artifacts
-Binaries/
+#Binaries/
+
+Binaries/Win64/*DebugGame.*
+Binaries/Win64/*.pdb
+Binaries/Win64/*DebugGame.dll
+
 Intermediate/
 Build/
 DerivedDataCache/
+
+
 
 # Saved data
 Saved/
@@ -49,7 +56,7 @@ Desktop.ini
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Compiled Static libraries
 *.lib
