@@ -527,12 +527,14 @@ protected:
 	/** Handle prepare for lines (pre-loading for upcoming lines) */
 	void HandlePrepareForLines(const TArray<FString>& LineIDs);
 
+public:
 	/**
 	 * Called by a presenter when it finishes presenting a line.
 	 * Decrements ActiveLinePresenterCount and calls Continue() when all presenters are done.
 	 */
 	void NotifyPresenterLineComplete();
 
+protected:
 	/** Clear saliency candidates */
 	void ClearSaliencyCandidates();
 };
